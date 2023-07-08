@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Vox Pop - Добавить комментарий</title>
+</head>
+
+<body>
+    <h1>Оставьте свой комментарий</h1>
+    <form action="/comments/new" method="post">
+        <p><label for="comment">Your comment:</label></p>
+        <textarea id="comment" name="text" rows="4" cols="50"></textarea><br>
+
+        What is your favorite primary color?<br>
+        <input type="radio" name="category" value="Positive">positive<br>
+        <input type="radio" name="category" value="Negative" checked>negative<br>
+
+        <input type="submit" value="Add">
+    </form>    
+
+</body>
+
+</html>
